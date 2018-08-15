@@ -2,14 +2,6 @@ variable "project_key" {
   description = "Project name or key."
 }
 
-variable "aws_access_key" {
-  description = "The AWS access key."
-}
-
-variable "aws_secret_key" {
-  description = "The AWS secret key."
-}
-
 variable "aws_region" {
   description = "The AWS region to create resources in."
   default = "ca-central-1"
